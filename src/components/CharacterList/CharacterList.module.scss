@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.character__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .character__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @media (max-width: 600px) {
+            justify-content: center;
+            margin-top: $spacing-medium;
+        }
+        
+    }
+    
+    .character__card {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}
+

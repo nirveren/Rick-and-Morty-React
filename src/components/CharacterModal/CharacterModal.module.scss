@@ -1,0 +1,90 @@
+@import '../../styles/variables';
+
+.card__container {
+    width: $width-large;
+    background-color: $white;
+    text-align: left;
+    border-radius: $border-radius-medium;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    @media (max-width: 450px) {
+       width: 320px;
+    }
+    
+    .card__upperDiv {
+      display: flex;
+      height: 50%;
+      justify-content: center;
+      align-items: center;
+      gap: 12%;
+      border-bottom: 1px solid rgb(194, 194, 194);
+      margin: 0px 30px;
+      padding: 25px 0px 10px;
+      
+      .card__upperDivleft {
+        width: 30%;
+      }
+  
+      .card__upperDivright {
+        width: 70%;
+      }
+  
+      .card__profilePic {
+        width: 100px;
+        height: 100px;
+        border-radius: $border-radius-large;
+      }
+  
+      .card__name {
+        font-size: $font-size-large;
+        font-weight: $font-bold;
+      }
+  
+      .card__statusDiv {
+        display: flex;
+        align-items: center;
+        margin-top: -17px;
+        
+        .card__status {
+          width: 12px;
+          height: 12px;
+          margin-right: 10px;
+        }
+  
+        .card__statusSize {
+          font-size: $font-size-medium;
+        }
+      }
+    }
+  
+    .card__lowerDiv {
+      height: 50%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 17px;
+      margin: 15px 35px;
+      padding: 0px 0px 40px;
+  
+      .card__lowerDivgreyText {
+        color: rgb(153, 156, 168);
+        font-size: $font-size-small;
+        margin: 5px 0px;
+      }
+  
+      .card__lowerDivblackText {
+        font-size: $font-size-medium;
+        margin: 0px;
+      }
+    }
+  
+    .cross__icon {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      cursor: pointer;
+    }
+  }
+  

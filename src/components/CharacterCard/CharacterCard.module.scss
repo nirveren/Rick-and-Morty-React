@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.character__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 230px;
+    height: 250px;
+    cursor: pointer;
+    background-color: $white;
+    position: relative;
+    border-radius: $border-radius-small;
+
+    @media (max-width: 600px) {
+        width: 270px;
+        height: 290px;
+    }
+
+    .character__pic {
+        position: absolute;
+        top: -30px;
+        width: $width-medium;
+        height: $height-standard;
+        border-radius: $border-radius-medium;
+        box-shadow: 5px 5px 5px $gray;
+
+        @media (max-width: 600px) {
+            top: -20px;
+            width: 220px;
+            height: 220px;
+        }
+    }
+    
+    .character__name {
+        padding-top: 180px;
+        font-size: $font-size-large;
+        text-align: center;
+
+        @media (max-width: 600px) {
+            padding-top: 210px;
+        }
+    }
+}
+

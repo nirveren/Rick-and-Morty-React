@@ -1,0 +1,49 @@
+@import '../../../styles/variables';
+
+.toTop__btm {
+  position: relative;
+
+  .icon__position {
+    position: fixed;
+    bottom: $spacing-ultra-large;
+    right: $spacing-ultra-medium;
+    z-index: 20;
+  }
+
+  .icon__style {
+    background-color: $violet;
+    border: 2px solid $white;
+    border-radius: $border-radius-large;
+    height: $height-small;
+    width: $width-small;
+    color: $white;
+    cursor: pointer;
+    animation: movebtn 3s ease-in-out infinite;
+    transition: all $transition ease-in-out;
+
+    &:hover {
+      animation: none;
+      background: $white;
+      color: $violet;
+      border: 2px solid $violet;
+    }
+  }
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
