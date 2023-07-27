@@ -1,0 +1,64 @@
+.toTop__btm {
+  position: relative;
+}
+.toTop__btm .icon__position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+.toTop__btm .icon__style {
+  background-color: #551B54;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: movebtn 3s ease-in-out infinite;
+          animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
+}
+.toTop__btm .icon__style:hover {
+  -webkit-animation: none;
+          animation: none;
+  background: #fff;
+  color: #551B54;
+  border: 2px solid #551B54;
+}
+
+@-webkit-keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=ScrollToTop.module.css.map */
