@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ead163ed.css",
-    "main.js": "/static/js/main.fd454112.js",
-    "static/media/Logo.png": "/static/media/Logo.de3062ed18fb4232c53c.png",
-    "index.html": "/index.html",
-    "static/media/loader-bllue.svg": "/static/media/loader-bllue.47245d752dad4bfaf183200dfd645015.svg",
-    "static/media/cross.svg": "/static/media/cross.2001e956d267bc9b1a2349ee0a8ee521.svg",
-    "main.ead163ed.css.map": "/static/css/main.ead163ed.css.map",
-    "main.fd454112.js.map": "/static/js/main.fd454112.js.map"
+    "main.css": "/Rick-and-Morty-React/static/css/main.ead163ed.css",
+    "main.js": "/Rick-and-Morty-React/static/js/main.e2c8a8cd.js",
+    "static/media/Logo.png": "/Rick-and-Morty-React/static/media/Logo.de3062ed18fb4232c53c.png",
+    "static/media/loader-bllue.svg": "/Rick-and-Morty-React/static/media/loader-bllue.47245d752dad4bfaf183200dfd645015.svg",
+    "index.html": "/Rick-and-Morty-React/index.html",
+    "static/media/cross.svg": "/Rick-and-Morty-React/static/media/cross.2001e956d267bc9b1a2349ee0a8ee521.svg",
+    "main.ead163ed.css.map": "/Rick-and-Morty-React/static/css/main.ead163ed.css.map",
+    "main.e2c8a8cd.js.map": "/Rick-and-Morty-React/static/js/main.e2c8a8cd.js.map"
   },
   "entrypoints": [
     "static/css/main.ead163ed.css",
-    "static/js/main.fd454112.js"
+    "static/js/main.e2c8a8cd.js"
   ]
 }
